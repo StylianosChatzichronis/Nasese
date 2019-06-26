@@ -5,7 +5,7 @@ The Nasese(Neurocognitive Assessment Software for Enrichment Sensorimotor Enviro
 -nasese_lib.rar includes the libraries required to run the software.
 
 Process to install as application:
--Download files
+-Download files nasese_lib.rar, Nasese.jar
 -Create a folder
 -Unrar all files in the folder
 -Run the NASESE.jar
@@ -39,3 +39,6 @@ a) Download processing 3.3.1 . Other versions of processing may be also efficien
 b)Apart from processing there are some additional libraries. To import the libraries into the eclipse project: Go to package explorer. Right click in the ASDAT_server.java Build path->Configure Build path Select Libraries push Add external jar choose the corresponding libraries
 
 c)In the eclipse workplace there are folders with the projects. Copy & paste the images in the ASDAT_server and ASDAT_client folders. Copy and paste the folder octaves in the ASDAT_server folder.
+
+
+For troubleshooting contact on stelioschatzichronis@gmail.com
