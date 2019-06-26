@@ -1,4 +1,4 @@
-package asdat_16;
+package nasese;
 
 
 
@@ -6257,12 +6257,12 @@ public class ASDAT_16 extends PApplet {
 		      
 		      double doul1 = (double)meanTable1ASD[0][0];	         
 		      double doul2 = (double)SDTable1ASD[0][0];		      
-		      String b = "±";		
+		      String b = "Â±";		
 		      String a = df.format(doul1)+b+df.format(doul2);		      	      		     
 		      text(a, width/4f + width/12f,height/14f);			      
 		      doul1 = (double)meanTable1CG[0][0];	         
 		      doul2 = (double)SDTable1CG[0][0];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);	
 		      text(a, width/4f + width/7.25f,height/14f);	
 		      text(PvalueU[0][0],width/3 + width/8.5f ,height/14);  
@@ -6270,7 +6270,7 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanTable1ASD[0][1];	         
 		      doul2 = (double)SDTable1ASD[0][1];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/256 ,height/14);  
 		      doul1 = (double)meanTable1CG[0][1];	         
@@ -6283,12 +6283,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanTable1ASD[0][2];	         
 		      doul2 = (double)SDTable1ASD[0][2];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/6f,height/14);  
 		      doul1 = (double)meanTable1CG[0][2];	         
 		      doul2 = (double)SDTable1CG[0][2];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6.25f,height/14);  
 		      text(PvalueU[0][2],width/2  + width/8.25f+ width/5.9f,height/14);  
@@ -6296,12 +6296,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanTable1ASD[0][3];	         
 		      doul2 = (double)SDTable1ASD[0][3];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/5.8f+ width/6f,height/14);  
 		      doul1 = (double)meanTable1CG[0][3];	         
 		      doul2 = (double)SDTable1CG[0][3];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6f+ width/6f,height/14);  
 		      text(PvalueU[0][3],width/2  + width/8.25f+ width/5.9f+ width/6f,height/14);  
@@ -6309,12 +6309,12 @@ public class ASDAT_16 extends PApplet {
 		     //--------------line2-----------------
 		      doul1 = (double)meanTable1ASD[1][0];	         
 		      doul2 = (double)SDTable1ASD[1][0];		      
-		      b = "±";		
+		      b = "Â±";		
 		      a = df.format(doul1)+b+df.format(doul2);		      	      		     
 		      text(a, width/4f + width/12f,height/9.5f);			      
 		      doul1 = (double)meanTable1CG[1][0];	         
 		      doul2 = (double)SDTable1CG[1][0];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);	
 		      text(a, width/4f + width/7.25f,height/9.5f);	
 		      text(PvalueU[1][0],width/3 + width/8.5f ,height/9.5f);  
@@ -6322,12 +6322,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanTable1ASD[1][1];	         
 		      doul2 = (double)SDTable1ASD[1][1];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/256,height/9.5f);  
 		      doul1 = (double)meanTable1CG[1][1];	         
 		      doul2 = (double)SDTable1CG[1][1];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/128,height/9.5f);  
 		      text(PvalueU[1][1],width/2  + width/8.25f,height/9.5f);  
@@ -6335,12 +6335,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanTable1ASD[1][2];	         
 		      doul2 = (double)SDTable1ASD[1][2];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/6f,height/9.5f);  
 		      doul1 = (double)meanTable1CG[1][2];	         
 		      doul2 = (double)SDTable1CG[1][2];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6.25f,height/9.5f);  
 		      text(PvalueU[1][2],width/2  + width/8.25f+ width/5.9f,height/9.5f);  
@@ -6348,12 +6348,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanTable1ASD[1][3];	         
 		      doul2 = (double)SDTable1ASD[1][3];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/5.8f+ width/6f,height/9.5f);  
 		      doul1 = (double)meanTable1CG[1][3];	         
 		      doul2 = (double)SDTable1CG[1][3];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6f+ width/6f,height/9.5f);  
 		      text(PvalueU[1][3],width/2  + width/8.25f+ width/5.9f+ width/6f,height/9.5f);  
@@ -6363,12 +6363,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanTable1ASD[2][0];	         
 		      doul2 = (double)SDTable1ASD[2][0];		      
-		      b = "±";		
+		      b = "Â±";		
 		      a = df.format(doul1)+b+df.format(doul2);		      	      		     
 		      text(a, width/4f + width/12f,height/6.825f);			      
 		      doul1 = (double)meanTable1CG[2][0];	         
 		      doul2 = (double)SDTable1CG[2][0];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);	
 		      text(a, width/4f + width/7.25f,height/6.825f);	
 		      text(PvalueU[2][0],width/3 + width/8.5f ,height/6.825f);  
@@ -6376,12 +6376,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanTable1ASD[2][1];	         
 		      doul2 = (double)SDTable1ASD[2][1];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/248,height/6.825f);  
 		      doul1 = (double)meanTable1CG[2][1];	         
 		      doul2 = (double)SDTable1CG[2][1];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/128,height/6.825f);  
 		      text(PvalueU[2][1],width/2  + width/8.25f,height/6.825f);  
@@ -6389,12 +6389,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanTable1ASD[2][2];	         
 		      doul2 = (double)SDTable1ASD[2][2];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/6f,height/6.825f);  
 		      doul1 = (double)meanTable1CG[2][2];	         
 		      doul2 = (double)SDTable1CG[2][2];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6.25f,height/6.825f);  
 		      text(PvalueU[2][2],width/2  + width/8.25f+ width/5.9f,height/6.825f);  
@@ -6402,12 +6402,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanTable1ASD[2][3];	         
 		      doul2 = (double)SDTable1ASD[2][3];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/5.8f+ width/6f,height/6.825f);  
 		      doul1 = (double)meanTable1CG[2][3];	         
 		      doul2 = (double)SDTable1CG[2][3];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6f+ width/6f,height/6.825f);  
 		      text(PvalueU[2][3],width/2  + width/8.25f+ width/5.9f+ width/6f,height/6.825f);  
@@ -6421,12 +6421,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanTable1ASD[3][0];	         
 		      doul2 = (double)SDTable1ASD[3][0];		      
-		      b = "±";		
+		      b = "Â±";		
 		      a = df.format(doul1)+b+df.format(doul2);		      	      		     
 		      text(a, width/4f + width/12f,height/5.3f);			      
 		      doul1 = (double)meanTable1CG[3][0];	         
 		      doul2 = (double)SDTable1CG[3][0];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);	
 		      text(a, width/4f + width/7.25f,height/5.3f);	
 		      text(PvalueU[3][0],width/3 + width/8.5f ,height/5.3f);  
@@ -6434,12 +6434,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanTable1ASD[3][1];	         
 		      doul2 = (double)SDTable1ASD[3][1];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 +width/400,height/5.3f);  
 		      doul1 = (double)meanTable1CG[3][1];	         
 		      doul2 = (double)SDTable1CG[3][1];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/128,height/5.3f);  
 		      text(PvalueU[3][1],width/2  + width/8.25f,height/5.3f);  
@@ -6447,12 +6447,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanTable1ASD[3][2];	         
 		      doul2 = (double)SDTable1ASD[3][2];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/6f,height/5.3f);  
 		      doul1 = (double)meanTable1CG[3][2];	         
 		      doul2 = (double)SDTable1CG[3][2];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6.25f,height/5.3f);  
 		      text(PvalueU[3][2],width/2  + width/8.25f+ width/5.9f,height/5.3f);  
@@ -6460,12 +6460,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanTable1ASD[3][3];	         
 		      doul2 = (double)SDTable1ASD[3][3];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/5.8f+ width/6f,height/5.3f);  
 		      doul1 = (double)meanTable1CG[3][3];	         
 		      doul2 = (double)SDTable1CG[3][3];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6f+ width/6f,height/5.3f);  
 		      text(PvalueU[3][3],width/2  + width/8.25f+ width/5.9f+ width/6f,height/5.3f);  
@@ -6480,12 +6480,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanTable1ASD[4][0];	         
 		      doul2 = (double)SDTable1ASD[4][0];		      
-		      b = "±";		
+		      b = "Â±";		
 		      a = df.format(doul1)+b+df.format(doul2);		      	      		     
 		      text(a, width/4f + width/12f,height/4.32f);			      
 		      doul1 = (double)meanTable1CG[4][0];	         
 		      doul2 = (double)SDTable1CG[4][0];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);	
 		      text(a, width/4f + width/7.25f,height/4.32f);	
 		      text(PvalueU[4][1],width/3 + width/8.5f ,height/4.32f);  
@@ -6493,12 +6493,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanTable1ASD[4][1];	         
 		      doul2 = (double)SDTable1ASD[4][1];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2+width/400,height/4.32f); 	
 		      doul1 = (double)meanTable1CG[4][1];	         
 		      doul2 = (double)SDTable1CG[4][1];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f + width/128,height/4.32f);  
 		      text(PvalueU[4][1],width/2  + width/8.25f,height/4.32f);  
@@ -6506,12 +6506,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanTable1ASD[4][2];	         
 		      doul2 = (double)SDTable1ASD[4][2];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/6f,height/4.32f);  
 		      doul1 = (double)meanTable1CG[4][2];	         
 		      doul2 = (double)SDTable1CG[4][2];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6.25f,height/4.32f);  
 		      text(PvalueU[4][2],width/2  + width/8.25f+ width/5.9f,height/4.32f);  
@@ -6519,12 +6519,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanTable1ASD[4][3];	         
 		      doul2 = (double)SDTable1ASD[4][3];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/5.8f+ width/6f,height/4.32f);  
 		      doul1 = (double)meanTable1CG[4][3];	         
 		      doul2 = (double)SDTable1CG[4][3];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6f+ width/6f,height/4.32f);  
 		      text(PvalueU[4][3],width/2  + width/8.25f+ width/5.9f+ width/6f,height/4.32f);  
@@ -6535,12 +6535,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanTable1ASD[5][0];	         
 		      doul2 = (double)SDTable1ASD[5][0];		      
-		      b = "±";		
+		      b = "Â±";		
 		      a = df.format(doul1)+b+df.format(doul2);		      	      		     
 		      text(a, width/4f + width/12f,height/3.65f);			      
 		      doul1 = (double)meanTable1CG[5][0];	         
 		      doul2 = (double)SDTable1CG[5][0];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);	
 		      text(a, width/4f + width/7.25f,height/3.65f);	
 		      text(PvalueU[5][0],width/3 + width/8.5f ,height/3.65f);  
@@ -6548,12 +6548,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanTable1ASD[5][1];	         
 		      doul2 = (double)SDTable1ASD[5][1];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2+width/400,height/3.65f); 	
 		      doul1 = (double)meanTable1CG[5][1];	         
 		      doul2 = (double)SDTable1CG[5][1];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f + width/128,height/3.65f);  
 		      text(PvalueU[5][1],width/2  + width/8.25f,height/3.65f);  
@@ -6561,12 +6561,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanTable1ASD[5][2];	         
 		      doul2 = (double)SDTable1ASD[5][2];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/6f,height/3.65f);  
 		      doul1 = (double)meanTable1CG[5][2];	         
 		      doul2 = (double)SDTable1CG[5][2];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6.25f,height/3.65f);  
 		      text(PvalueU[5][2],width/2  + width/8.25f+ width/5.9f,height/3.65f);  
@@ -6574,7 +6574,7 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanTable1ASD[5][3];	         
 		      doul2 = (double)SDTable1ASD[5][3];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/5.8f+ width/6f,height/3.65f);  
 		      doul1 = (double)meanTable1CG[5][3];	         
@@ -6601,12 +6601,12 @@ public class ASDAT_16 extends PApplet {
 		      //line 1 -----------------------FP1 - FP2------------------
 		      doul1 = (double)meanDeltaASD_Coherence[0];	         
 		      doul2 = (double)sdDeltaASD_Coherence[0];		      
-		      b = "±";		
+		      b = "Â±";		
 		      a = df.format(doul1)+b+df.format(doul2);		      		     
 		      text(a, width/4f + width/12f, height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f);			      
 		      doul1 = (double)meanDeltaCG_Coherence[0];	         
 		      doul2 = (double)sdDeltaCG_Coherence[0];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);	
 		      text(a, width/4f + width/7.25f, height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f);	
 		      text(PvalueCoherenceDelta[0],width/3 + width/8.5f , height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f);  
@@ -6614,12 +6614,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanThetaASD_Coherence[0];	         
 		      doul2 = (double)sdThetaASD_Coherence[0];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/256 , height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f);  
 		      doul1 = (double)meanThetaCG_Coherence[0];	         
 		      doul2 = (double)sdThetaCG_Coherence[0];		 	  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/128, height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f);  
 		      text(PvalueCoherenceTheta[1],width/2  + width/8.25f, height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f);  
@@ -6627,12 +6627,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanAlphaASD_Coherence[0];	         
 		      doul2 = (double)sdAlphaASD_Coherence[0];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/6f, height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f);  
 		      doul1 = (double)meanAlphaCG_Coherence[0];	         
 		      doul2 = (double)sdAlphaCG_Coherence[0];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6.25f, height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f);  
 		      text(PvalueCoherenceAlpha[0],width/2  + width/8.25f+ width/5.9f, height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f);  
@@ -6640,12 +6640,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanBetaASD_Coherence[0];	         
 		      doul2 = (double)sdBetaASD_Coherence[0];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/5.8f+ width/6f, height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f);  
 		      doul1 = (double)meanBetaCG_Coherence[0];	         
 		      doul2 = (double)sdBetaCG_Coherence[0];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6f+ width/6f, height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f);  
 		      text(PvalueCoherenceBeta[0],width/2  + width/8.25f+ width/5.9f+ width/6f, height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f);  
@@ -6653,12 +6653,12 @@ public class ASDAT_16 extends PApplet {
 		  //line 2 -----------------------F3 - F4-->106----------------
 		      doul1 = (double)meanDeltaASD_Coherence[106];	         
 		      doul2 = (double)sdDeltaASD_Coherence[106];		      
-		      b = "±";		
+		      b = "Â±";		
 		      a = df.format(doul1)+b+df.format(doul2);		      	      		     
 		      text(a, width/4f + width/12f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/24);			      
 		      doul1 = (double)meanDeltaCG_Coherence[106];	         
 		      doul2 = (double)sdDeltaCG_Coherence[106];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);	
 		      text(a, width/4f + width/7.25f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/24);	
 		      text(PvalueCoherenceDelta[106],width/3 + width/8.5f ,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/24);  
@@ -6666,12 +6666,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanThetaASD_Coherence[106];	         
 		      doul2 = (double)sdThetaASD_Coherence[106];			  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/256,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/24);  
 		      doul1 = (double)meanThetaCG_Coherence[106];	         
 		      doul2 = (double)sdThetaCG_Coherence[106];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/128,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/24);  
 		      text(PvalueCoherenceTheta[106],width/2  + width/8.25f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/24);  
@@ -6679,12 +6679,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanAlphaASD_Coherence[106];	         
 		      doul2 = (double)sdAlphaASD_Coherence[106];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/6f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/24);  
 		      doul1 = (double)meanAlphaCG_Coherence[106];	         
 		      doul2 = (double)sdAlphaCG_Coherence[106];	  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6.25f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/24);  
 		      text(PvalueCoherenceAlpha[106],width/2  + width/8.25f+ width/5.9f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/24);  
@@ -6692,12 +6692,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanBetaASD_Coherence[106];	         
 		      doul2 = (double)sdBetaASD_Coherence[106];				  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/5.8f+ width/6f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/24);  
 		      doul1 = (double)meanBetaCG_Coherence[106];	         
 		      doul2 = (double)sdBetaCG_Coherence[106];	
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6f+ width/6f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/24);  
 		      text(PvalueCoherenceBeta[106],width/2  + width/8.25f+ width/5.9f+ width/6f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/24);  
@@ -6707,12 +6707,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanDeltaASD_Coherence[100];	         
 		      doul2 = (double)sdDeltaASD_Coherence[100];				     
-		      b = "±";		
+		      b = "Â±";		
 		      a = df.format(doul1)+b+df.format(doul2);		      	      		     
 		      text(a, width/4f + width/12f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12);			      
 		      doul1 = (double)meanBetaCG_Coherence[100];	         
 		      doul2 = (double)sdBetaCG_Coherence[100];	 
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);	
 		      text(a, width/4f + width/7.25f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12);	
 		      text(PvalueCoherenceDelta[100],width/3 + width/8.5f ,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12);  
@@ -6720,12 +6720,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanThetaASD_Coherence[100];	         
 		      doul2 = (double)sdThetaASD_Coherence[100];		
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/248,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12);  
 		      doul1 = (double)meanThetaCG_Coherence[100];	         
 		      doul2 = (double)sdThetaCG_Coherence[100];	   
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/128,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12);  
 		      text(PvalueCoherenceTheta[100],width/2  + width/8.25f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12);  
@@ -6733,12 +6733,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanAlphaASD_Coherence[100];	         
 		      doul2 = (double)sdAlphaASD_Coherence[100];			  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/6f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12);  
 		      doul1 = (double)meanAlphaCG_Coherence[100];	         
 		      doul2 = (double)sdAlphaCG_Coherence[100];	  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6.25f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12);  
 		      text(PvalueCoherenceAlpha[100],width/2  + width/8.25f+ width/5.9f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12);  
@@ -6746,12 +6746,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanBetaASD_Coherence[100];	         
 		      doul2 = (double)sdBetaASD_Coherence[100];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/5.8f+ width/6f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12);  
 		      doul1 = (double)meanBetaCG_Coherence[100];	         
 		      doul2 = (double)sdBetaCG_Coherence[100];	
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6f+ width/6f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12);  
 		      text(PvalueCoherenceBeta[100],width/2  + width/8.25f+ width/5.9f+ width/6f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12);  
@@ -6762,12 +6762,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanDeltaASD_Coherence[115];	         
 		      doul2 = (double)sdDeltaASD_Coherence[115];	      
-		      b = "±";		
+		      b = "Â±";		
 		      a = df.format(doul1)+b+df.format(doul2);		      	      		     
 		      text(a, width/4f + width/12f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12 + height/24);			      
 		      doul1 = (double)meanDeltaCG_Coherence[115];	         
 		      doul2 = (double)sdDeltaCG_Coherence[115];	  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);	
 		      text(a, width/4f + width/7.25f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12 + height/24);	
 		      text(PvalueCoherenceDelta[115],width/3 + width/8.5f ,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12 + height/24);  
@@ -6775,12 +6775,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanThetaASD_Coherence[115];	         
 		      doul2 = (double)sdThetaASD_Coherence[115];	   
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 +width/400,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12 + height/24);  
 		      doul1 = (double)meanThetaCG_Coherence[115];	         
 		      doul2 = (double)sdThetaCG_Coherence[115];	    
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/128,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12 + height/24);  
 		      text(PvalueCoherenceTheta[115],width/2  + width/8.25f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12 + height/24);  
@@ -6788,12 +6788,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanAlphaASD_Coherence[115];	         
 		      doul2 = (double)sdAlphaASD_Coherence[115];	   	  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/6f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12 + height/24);  
 		      doul1 = (double)meanAlphaCG_Coherence[115];	         
 		      doul2 = (double)sdAlphaCG_Coherence[115];	 
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6.25f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12 + height/24);  
 		      text(PvalueCoherenceAlpha[115],width/2  + width/8.25f+ width/5.9f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12 + height/24);  
@@ -6801,12 +6801,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanBetaASD_Coherence[115];	         
 		      doul2 = (double)sdBetaASD_Coherence[115];	   		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/5.8f+ width/6f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12 + height/24);  
 		      doul1 = (double)meanBetaCG_Coherence[115];	         
 		      doul2 = (double)sdBetaCG_Coherence[115];	   
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6f+ width/6f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12 + height/24);  
 		      text(PvalueCoherenceBeta[115],width/2  + width/8.25f+ width/5.9f+ width/6f,height/8+ height/128+ height/6 + height/32+height/8 + height/6 + height/20 +  height/60 - height/3.2f + height/12 + height/24);  
@@ -6821,12 +6821,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanDeltaASD_Coherence[50];	         
 		      doul2 = (double)sdDeltaASD_Coherence[50];	 	      
-		      b = "±";		
+		      b = "Â±";		
 		      a = df.format(doul1)+b+df.format(doul2);		      	      		     
 		      text(a, width/4f + width/12f,height/4+ height/128+ height/6 + height/32 + height/3 + height/20 +  height/60 - height/3.2f);			      
 		      doul1 = (double)meanDeltaCG_Coherence[50];	         
 		      doul2 = (double)sdDeltaCG_Coherence[50];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);	
 		      text(a, width/4f + width/7.25f,height/4+ height/128+ height/6 + height/32 + height/3 + height/20 +  height/60 - height/3.2f);	
 		      text(PvalueCoherenceDelta[50],width/3 + width/8.5f ,height/4+ height/128+ height/6 + height/32 + height/3 + height/20 +  height/60 - height/3.2f);  
@@ -6835,12 +6835,12 @@ public class ASDAT_16 extends PApplet {
 		      
 		      doul1 = (double)meanThetaASD_Coherence[50];	         
 		      doul2 = (double)sdThetaASD_Coherence[50];			     
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2+width/400,height/4+ height/128+ height/6 + height/32 + height/3 + height/20 +  height/60 - height/3.2f); 	
 		      doul1 = (double)meanThetaCG_Coherence[50];	         
 		      doul2 = (double)sdThetaCG_Coherence[50];	
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f + width/128, height/4+ height/128+ height/6 + height/32 + height/3 + height/20 +  height/60 - height/3.2f);  
 		      text(PvalueCoherenceBeta[50],width/2  + width/8.25f,height/4+ height/128+ height/6 + height/32 + height/3 + height/20 +  height/60 - height/3.2f);  
@@ -6848,12 +6848,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanAlphaASD_Coherence[50];	         
 		      doul2 = (double)sdAlphaASD_Coherence[50];	  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/6f,height/4+ height/128+ height/6 + height/32 + height/3 + height/20 +  height/60 - height/3.2f);  
 		      doul1 = (double)meanAlphaCG_Coherence[50];	         
 		      doul2 = (double)sdAlphaCG_Coherence[50];	  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6.25f,height/4+ height/128+ height/6 + height/32 + height/3 + height/20 +  height/60 - height/3.2f);  
 		      text(PvalueCoherenceAlpha[50],width/2  + width/8.25f+ width/5.9f,height/4+ height/128+ height/6 + height/32 + height/3 + height/20 +  height/60 - height/3.2f);  
@@ -6861,12 +6861,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanBetaASD_Coherence[50];	         
 		      doul2 = (double)sdBetaASD_Coherence[50];	 	  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/5.8f+ width/6f,height/4+ height/128+ height/6 + height/32 + height/3 + height/20 +  height/60 - height/3.2f);  
 		      doul1 = (double)meanBetaCG_Coherence[50];	         
 		      doul2 = (double)sdBetaCG_Coherence[50];	  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6f+ width/6f,height/4+ height/128+ height/6 + height/32 + height/3 + height/20 +  height/60 - height/3.2f);  
 		      text(PvalueCoherenceBeta[50],width/2  + width/8.25f+ width/5.9f+ width/6f,height/4+ height/128+ height/6 + height/32 + height/3 + height/20 +  height/60 - height/3.2f);  
@@ -6877,12 +6877,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanDeltaASD_Coherence[30];	         
 		      doul2 = (double)sdDeltaASD_Coherence[30];	 	 		      
-		      b = "±";		
+		      b = "Â±";		
 		      a = df.format(doul1)+b+df.format(doul2);		      	      		     
 		      text(a, width/4f + width/12f,height/4+ height/128+ height/6 + height/32+ height/3 + height/20 +  height/60 - height/3.2f +   height/24);			      
 		      doul1 = (double)meanDeltaCG_Coherence[30];	         
 		      doul2 = (double)sdDeltaCG_Coherence[30];	   
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);	
 		      text(a, width/4f + width/7.25f,height/4+ height/128+ height/6 + height/32+ height/3 + height/20 +  height/60 - height/3.2f +   height/24);	
 		      text(PvalueCoherenceDelta[30],width/3 + width/8.5f ,height/4+ height/128+ height/6 + height/32+ height/3 + height/20 +  height/60 - height/3.2f +   height/24);  
@@ -6890,12 +6890,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanThetaASD_Coherence[30];	         
 		      doul2 = (double)sdThetaASD_Coherence[30];	 
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2+width/400,height/4+ height/128+ height/6 + height/32+ height/3 + height/20 +  height/60 - height/3.2f +   height/24); 	
 		      doul1 = (double)meanThetaCG_Coherence[30];	         
 		      doul2 = (double)sdThetaCG_Coherence[30];	   
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f + width/128,height/4+ height/128+ height/6 + height/32+ height/3 + height/20 +  height/60 - height/3.2f +   height/24);  
 		      text(PvalueCoherenceTheta[30],width/2  + width/8.25f,height/4+ height/128+ height/6 + height/32+ height/3 + height/20 +  height/60 - height/3.2f +   height/24);  
@@ -6903,12 +6903,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanAlphaASD_Coherence[30];	         
 		      doul2 = (double)sdAlphaASD_Coherence[30];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/6f,height/4+ height/128+ height/6 + height/32+ height/3 + height/20 +  height/60 - height/3.2f +   height/24);  
 		      doul1 = (double)meanAlphaCG_Coherence[30];	         
 		      doul2 = (double)sdAlphaCG_Coherence[30];	  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6.25f,height/4+ height/128+ height/6 + height/32+ height/3 + height/20 +  height/60 - height/3.2f +   height/24);  
 		      text(PvalueCoherenceAlpha[30],width/2  + width/8.25f+ width/5.9f,height/4+ height/128+ height/6 + height/32+ height/3 + height/20 +  height/60 - height/3.2f +   height/24);  
@@ -6916,12 +6916,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanBetaASD_Coherence[30];	         
 		      doul2 = (double)sdBetaASD_Coherence[30];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/5.8f+ width/6f,height/4+ height/128+ height/6 + height/32+ height/3 + height/20 +  height/60 - height/3.2f +   height/24);  
 		      doul1 = (double)meanBetaCG_Coherence[30];	         
 		      doul2 = (double)sdBetaCG_Coherence[30];	   
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6f+ width/6f,height/4+ height/128+ height/6 + height/32+ height/3 + height/20 +  height/60 - height/3.2f +   height/24);  
 		      text(PvalueCoherenceBeta[30],width/2  + width/8.25f+ width/5.9f+ width/6f,height/4+ height/128+ height/6 + height/32+ height/3 + height/20 +  height/60 - height/3.2f +   height/24);  
@@ -6931,12 +6931,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanDeltaASD_Coherence[119];	         
 		      doul2 = (double)sdDeltaASD_Coherence[119];		      
-		      b = "±";		
+		      b = "Â±";		
 		      a = df.format(doul1)+b+df.format(doul2);		      	      		     
 		      text(a, width/4f + width/12f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/6 +  height/12);			      
 		      doul1 = (double)meanDeltaCG_Coherence[119];	         
 		      doul2 = (double)sdDeltaCG_Coherence[119];	   
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);	
 		      text(a, width/4f + width/7.25f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/6 +  height/12);	
 		      text(PvalueCoherenceDelta[119],width/3 + width/8.5f ,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/6 +  height/12);  
@@ -6944,12 +6944,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanThetaASD_Coherence[119];	         
 		      doul2 = (double)sdThetaASD_Coherence[119];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2+width/400,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/6 +  height/12); 	
 		      doul1 = (double)meanThetaCG_Coherence[119];	         
 		      doul2 = (double)sdThetaCG_Coherence[119];	   
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f + width/128,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/6 +  height/12);  
 		      text(PvalueCoherenceTheta[119],width/2  + width/8.25f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/6 +  height/12);  
@@ -6957,12 +6957,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanAlphaASD_Coherence[119];	         
 		      doul2 = (double)sdAlphaASD_Coherence[119];			  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/6f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/6 +  height/12);  
 		      doul1 = (double)meanAlphaCG_Coherence[119];	         
 		      doul2 = (double)sdAlphaCG_Coherence[119];	  	  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6.25f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/6 +  height/12);  
 		      text(PvalueCoherenceAlpha[119],width/2  + width/8.25f+ width/5.9f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/6 +  height/12);  
@@ -6970,12 +6970,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanBetaASD_Coherence[119];	         
 		      doul2 = (double)sdBetaASD_Coherence[119];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/5.8f+ width/6f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/6 +  height/12);  
 		      doul1 = (double)meanBetaCG_Coherence[119];	         
 		      doul2 = (double)sdBetaCG_Coherence[119];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6f+ width/6f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/6 +  height/12);  
 		      text(PvalueCoherenceBeta[119],width/2  + width/8.25f+ width/5.9f+ width/6f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/6 +  height/12);  
@@ -6987,12 +6987,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanDeltaASD_Coherence[76];	         
 		      doul2 = (double)sdDeltaASD_Coherence[76];		      
-		      b = "±";		
+		      b = "Â±";		
 		      a = df.format(doul1)+b+df.format(doul2);		      	      		     
 		      text(a, width/4f + width/12f,height/4+ height/128+height/3+height/32+height/20 +  height/60 - height/3.2f + height/6 +  height/12 + height/24);			      
 		      doul1 = (double)meanDeltaCG_Coherence[76];	         
 		      doul2 = (double)sdDeltaCG_Coherence[76];	    
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);	
 		      text(a, width/4f + width/7.25f,height/4+ height/128+height/3+height/32+height/20 +  height/60 - height/3.2f + height/6 +  height/12 + height/24);	
 		      text(PvalueCoherenceDelta[76],width/3 + width/8.5f ,height/4+ height/128+height/3+height/32+height/20 +  height/60 - height/3.2f + height/6 +  height/12 + height/24);  
@@ -7000,12 +7000,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanThetaASD_Coherence[76];	         
 		      doul2 = (double)sdThetaASD_Coherence[76];		     
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2+width/400,height/4+ height/128+height/3+height/32+height/20 +  height/60 - height/3.2f + height/6 +  height/12 + height/24); 	
 		      doul1 = (double)meanThetaCG_Coherence[76];	         
 		      doul2 = (double)sdThetaCG_Coherence[76];	  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f + width/128,height/4+ height/128+height/3+height/32+height/20 +  height/60 - height/3.2f + height/6 +  height/12 + height/24);  
 		      text(PvalueCoherenceTheta[76],width/2  + width/8.25f,height/4+ height/128+height/3+height/32+height/20 +  height/60 - height/3.2f + height/6 +  height/12 + height/24);  
@@ -7013,12 +7013,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanAlphaASD_Coherence[76];	         
 		      doul2 = (double)sdAlphaASD_Coherence[76];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/6f,height/4+ height/128+height/3+height/32+height/20 +  height/60 - height/3.2f + height/6 +  height/12 + height/24);  
 		      doul1 = (double)meanAlphaCG_Coherence[76];	         
 		      doul2 = (double)sdAlphaCG_Coherence[76];	  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6.25f,height/4+ height/128+height/3+height/32+height/20 +  height/60 - height/3.2f + height/6 +  height/12 + height/24);  
 		      text(PvalueCoherenceAlpha[76],width/2  + width/8.25f+ width/5.9f,height/4+ height/128+height/3+height/32+height/20 +  height/60 - height/3.2f + height/6 +  height/12 + height/24);  
@@ -7026,12 +7026,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanBetaASD_Coherence[76];	         
 		      doul2 = (double)sdBetaASD_Coherence[76];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/5.8f+ width/6f,height/4+ height/128+height/3+height/32+height/20 +  height/60 - height/3.2f + height/6 +  height/12 + height/24);  
 		      doul1 = (double)meanBetaCG_Coherence[76];	         
 		      doul2 = (double)sdBetaCG_Coherence[76];	
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6f+ width/6f,height/4+ height/128+height/3+height/32+height/20 +  height/60 - height/3.2f + height/6 +  height/12 + height/24);  
 		      text(PvalueCoherenceBeta[76],width/2  + width/8.25f+ width/5.9f+ width/6f,height/4+ height/128+height/3+height/32+height/20 +  height/60 - height/3.2f + height/6 +  height/12 + height/24);  
@@ -7046,12 +7046,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanDeltaASD_Coherence[10];	         
 		      doul2 = (double)sdDeltaASD_Coherence[10];		
-		      b = "±";		
+		      b = "Â±";		
 		      a = df.format(doul1)+b+df.format(doul2);		      	      		     
 		      text(a, width/4f + width/12f,height/4+ height/128+ height/3+ height/32+height/20 + height/60 - height/3.2f + height/3);			      
 		      doul1 = (double)meanDeltaCG_Coherence[10];	         
 		      doul2 = (double)sdDeltaCG_Coherence[10];	
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);	
 		      text(a, width/4f + width/7.25f,height/4+ height/128+ height/3+ height/32+height/20 + height/60 - height/3.2f + height/3);	
 		      text(PvalueCoherenceDelta[10],width/3 + width/8.5f ,height/4+ height/128+ height/3+ height/32+height/20 + height/60 - height/3.2f + height/3);  
@@ -7059,12 +7059,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanThetaASD_Coherence[10];	         
 		      doul2 = (double)sdThetaASD_Coherence[10];		
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2+width/400,height/4+ height/128+ height/3+ height/32+height/20 + height/60 - height/3.2f + height/3); 	
 		      doul1 = (double)meanThetaCG_Coherence[10];	         
 		      doul2 = (double)sdThetaCG_Coherence[10];	 
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f + width/128,height/4+ height/128+ height/3+ height/32+height/20 + height/60 - height/3.2f + height/3);  
 		      text(PvalueCoherenceTheta[10],width/2  + width/8.25f,height/4+ height/128+ height/3+ height/32+height/20 + height/60 - height/3.2f + height/3);  
@@ -7072,12 +7072,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanAlphaASD_Coherence[10];	         
 		      doul2 = (double)sdAlphaASD_Coherence[10];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/6f,height/4+ height/128+ height/3+ height/32+height/20 + height/60 - height/3.2f + height/3);  
 		      doul1 = (double)meanAlphaCG_Coherence[10];	         
 		      doul2 = (double)sdAlphaCG_Coherence[10];	  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6.25f,height/4+ height/128+ height/3+ height/32+height/20 + height/60 - height/3.2f + height/3);  
 		      text(PvalueCoherenceAlpha[10],width/2  + width/8.25f+ width/5.9f,height/4+ height/128+ height/3+ height/32+height/20 + height/60 - height/3.2f + height/3);  
@@ -7085,12 +7085,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanBetaASD_Coherence[10];	         
 		      doul2 = (double)sdBetaASD_Coherence[10];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/5.8f+ width/6f,height/4+ height/128+ height/3+ height/32+height/20 + height/60 - height/3.2f + height/3);  
 		      doul1 = (double)meanBetaCG_Coherence[10];	         
 		      doul2 = (double)sdBetaCG_Coherence[10];	  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6f+ width/6f,height/4+ height/128+ height/3+ height/32+height/20 + height/60 - height/3.2f + height/3);  
 		      text(PvalueCoherenceBeta[10],width/2  + width/8.25f+ width/5.9f+ width/6f,height/4+ height/128+ height/3+ height/32+height/20 + height/60 - height/3.2f + height/3);  
@@ -7101,12 +7101,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanDeltaASD_Coherence[25];	         
 		      doul2 = (double)sdDeltaASD_Coherence[25];		  	      
-		      b = "±";		
+		      b = "Â±";		
 		      a = df.format(doul1)+b+df.format(doul2);		      	      		     
 		      text(a, width/4f + width/12f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/24);		      
 		      doul1 = (double)meanDeltaCG_Coherence[25];	         
 		      doul2 = (double)sdDeltaCG_Coherence[25];	    
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);	
 		      text(a, width/4f + width/7.25f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/24);
 		      text(PvalueCoherenceDelta[25],width/3 + width/8.5f ,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/24); 
@@ -7114,12 +7114,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanThetaASD_Coherence[25];	         
 		      doul2 = (double)sdThetaASD_Coherence[25];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2+width/400,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/24);
 		      doul1 = (double)meanThetaCG_Coherence[25];	         
 		      doul2 = (double)sdThetaCG_Coherence[25];	  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f + width/128,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/24); 
 		      text(PvalueCoherenceTheta[25],width/2  + width/8.25f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/24);
@@ -7127,12 +7127,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanAlphaASD_Coherence[25];	         
 		      doul2 = (double)sdAlphaASD_Coherence[25];		  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/6f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/24);
 		      doul1 = (double)meanAlphaCG_Coherence[25];	         
 		      doul2 = (double)sdAlphaCG_Coherence[25];	  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6.25f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/24);  
 		      text(PvalueCoherenceAlpha[25],width/2  + width/8.25f+ width/5.9f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/24);
@@ -7140,12 +7140,12 @@ public class ASDAT_16 extends PApplet {
 		      textSize(10);
 		      doul1 = (double)meanBetaASD_Coherence[25];	         
 		      doul2 = (double)sdBetaASD_Coherence[25];		   
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1)+b+df.format(doul2);		      	
 		      text(a,width/2 + width/128+ width/5.8f+ width/6f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/24);
 		      doul1 = (double)meanBetaCG_Coherence[25];	         
 		      doul2 = (double)sdBetaCG_Coherence[25];	  
-		      b = "±";
+		      b = "Â±";
 		      a = df.format(doul1) +b+df.format(doul2);		      	
 		      text(a,width/2 + width/20f+ width/64+ width/6f+ width/6f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/24); 
 		      text(PvalueCoherenceBeta[25],width/2  + width/8.25f+ width/5.9f+ width/6f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/24);
@@ -7157,12 +7157,12 @@ public class ASDAT_16 extends PApplet {
 		  		      textSize(10);
 		  		      doul1 = (double)meanDeltaASD_Coherence[60];	         
 				      doul2 = (double)sdDeltaASD_Coherence[60];		  
-		  		      b = "±";		
+		  		      b = "Â±";		
 		  		      a = df.format(doul1)+b+df.format(doul2);		      	      		     
 		  		      text(a, width/4f + width/12f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/12 );	
 		  		      doul1 = (double)meanDeltaCG_Coherence[60];	         
 				      doul2 = (double)sdDeltaCG_Coherence[60];	   
-		  		      b = "±";
+		  		      b = "Â±";
 		  		      a = df.format(doul1) +b+df.format(doul2);	
 		  		      text(a, width/4f + width/7.25f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/12 );	
 		  		      text(PvalueCoherenceDelta[60],width/3 + width/8.5f ,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/12 );	
@@ -7170,12 +7170,12 @@ public class ASDAT_16 extends PApplet {
 		  		      textSize(10);
 		  		      doul1 = (double)meanThetaASD_Coherence[60];	         
 				      doul2 = (double)sdThetaASD_Coherence[60];		  
-		  		      b = "±";
+		  		      b = "Â±";
 		  		      a = df.format(doul1)+b+df.format(doul2);		      	
 		  		      text(a,width/2+width/400,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/12 );	
 		  		      doul1 = (double)meanThetaCG_Coherence[60];	         
 				      doul2 = (double)sdThetaCG_Coherence[60];	   
-		  		      b = "±";
+		  		      b = "Â±";
 		  		      a = df.format(doul1) +b+df.format(doul2);		      	
 		  		      text(a,width/2 + width/20f + width/128,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/12 );	
 		  		      text(PvalueCoherenceTheta[60],width/2  + width/8.25f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/12 );	
@@ -7183,12 +7183,12 @@ public class ASDAT_16 extends PApplet {
 		  		      textSize(10);
 		  		      doul1 = (double)meanAlphaASD_Coherence[60];	         
 				      doul2 = (double)sdAlphaASD_Coherence[60];		  	  
-		  		      b = "±";
+		  		      b = "Â±";
 		  		      a = df.format(doul1)+b+df.format(doul2);		      	
 		  		      text(a,width/2 + width/128+ width/6f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/12 );	
 		  		      doul1 = (double)meanAlphaCG_Coherence[60];	         
 				      doul2 = (double)sdAlphaCG_Coherence[60];	     
-		  		      b = "±";
+		  		      b = "Â±";
 		  		      a = df.format(doul1) +b+df.format(doul2);		      	
 		  		      text(a,width/2 + width/20f+ width/64+ width/6.25f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/12 );	 
 		  		      text(PvalueCoherenceAlpha[60],width/2  + width/8.25f+ width/5.9f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/12 );	  
@@ -7196,12 +7196,12 @@ public class ASDAT_16 extends PApplet {
 		  		      textSize(10);
 		  		      doul1 = (double)meanBetaASD_Coherence[60];	         
 				      doul2 = (double)sdBetaASD_Coherence[60];		 
-		  		      b = "±";
+		  		      b = "Â±";
 		  		      a = df.format(doul1)+b+df.format(doul2);		      	
 		  		      text(a,width/2 + width/128+ width/5.8f+ width/6f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/12 );	 
 		  		      doul1 = (double)meanBetaCG_Coherence[60];	         
 				      doul2 = (double)sdBetaCG_Coherence[60];	   
-		  		      b = "±";
+		  		      b = "Â±";
 		  		      a = df.format(doul1) +b+df.format(doul2);		      	
 		  		      text(a,width/2 + width/20f+ width/64+ width/6f+ width/6f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/12 );	
 		  		      text(PvalueCoherenceBeta[60],width/2  + width/8.25f+ width/5.9f+ width/6f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/12 );	 
@@ -7212,12 +7212,12 @@ public class ASDAT_16 extends PApplet {
 		  		      textSize(10);
 		  		      doul1 = (double)meanDeltaASD_Coherence[73];	         
 				      doul2 = (double)sdDeltaASD_Coherence[73];		 
-		  		      b = "±";		
+		  		      b = "Â±";		
 		  		      a = df.format(doul1)+b+df.format(doul2);		      	      		     
 		  		      text(a, width/4f + width/12f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/12 + height/24);		
 		  		      doul1 = (double)meanDeltaCG_Coherence[73];	         
 				      doul2 = (double)sdDeltaCG_Coherence[73];	   
-		  		      b = "±";
+		  		      b = "Â±";
 		  		      a = df.format(doul1) +b+df.format(doul2);	
 		  		      text(a, width/4f + width/7.25f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/12 + height/24);	
 		  		      text(PvalueCoherenceDelta[73],width/3 + width/8.5f ,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/12 + height/24);	
@@ -7225,12 +7225,12 @@ public class ASDAT_16 extends PApplet {
 		  		      textSize(10);
 		  		      doul1 = (double)meanThetaASD_Coherence[73];	         
 				      doul2 = (double)sdThetaASD_Coherence[73];		  
-		  		      b = "±";
+		  		      b = "Â±";
 		  		      a = df.format(doul1)+b+df.format(doul2);		      	
 		  		      text(a,width/2+width/400,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/12 + height/24);	
 		  		      doul1 = (double)meanThetaCG_Coherence[73];	         
 				      doul2 = (double)sdThetaCG_Coherence[73];	   
-		  		      b = "±";
+		  		      b = "Â±";
 		  		      a = df.format(doul1) +b+df.format(doul2);		      	
 		  		      text(a,width/2 + width/20f + width/128,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/12 + height/24);	
 		  		      text(PvalueCoherenceTheta[73],width/2  + width/8.25f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/12 + height/24);	
@@ -7238,12 +7238,12 @@ public class ASDAT_16 extends PApplet {
 		  		      textSize(10);
 		  		      doul1 = (double)meanAlphaASD_Coherence[73];	         
 				      doul2 = (double)sdAlphaASD_Coherence[73];		  	  
-		  		      b = "±";
+		  		      b = "Â±";
 		  		      a = df.format(doul1)+b+df.format(doul2);		      	
 		  		      text(a,width/2 + width/128+ width/6f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/12 + height/24);	
 		  		      doul1 = (double)meanAlphaCG_Coherence[73];	         
 				      doul2 = (double)sdAlphaCG_Coherence[73];	     
-		  		      b = "±";
+		  		      b = "Â±";
 		  		      a = df.format(doul1) +b+df.format(doul2);		      	
 		  		      text(a,width/2 + width/20f+ width/64+ width/6.25f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/12 + height/24);	
 		  		      text(PvalueCoherenceAlpha[73],width/2  + width/8.25f+ width/5.9f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/12 + height/24);	  
@@ -7251,12 +7251,12 @@ public class ASDAT_16 extends PApplet {
 		  		      textSize(10);
 		  		      doul1 = (double)meanBetaASD_Coherence[73];	         
 				      doul2 = (double)sdBetaASD_Coherence[73];		 
-		  		      b = "±";
+		  		      b = "Â±";
 		  		      a = df.format(doul1)+b+df.format(doul2);		      	
 		  		      text(a,width/2 + width/128+ width/5.8f+ width/6f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/12 + height/24);	
 		  		      doul1 = (double)meanBetaCG_Coherence[73];	         
 				      doul2 = (double)sdBetaCG_Coherence[73];	   
-		  		      b = "±";
+		  		      b = "Â±";
 		  		      a = df.format(doul1) +b+df.format(doul2);		      	
 		  		      text(a,width/2 + width/20f+ width/64+ width/6f+ width/6f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/12 + height/24);	
 		  		      text(PvalueCoherenceBeta[73],width/2  + width/8.25f+ width/5.9f+ width/6f,height/4+ height/128+ height/3 + height/32 + height/20 +  height/60 - height/3.2f + height/3 +  height/12 + height/24);	
@@ -7270,12 +7270,12 @@ public class ASDAT_16 extends PApplet {
 		  		 		  		      textSize(10);
 		  		 		  		      doul1 = (double)meanDeltaASD_Coherence[41];	         
 		  		 				      doul2 = (double)sdDeltaASD_Coherence[41];		  
-		  		 		  		      b = "±";		
+		  		 		  		      b = "Â±";		
 		  		 		  		      a = df.format(doul1)+b+df.format(doul2);		      	      		     
 		  		 		  		      text(a, width/4f + width/12f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6);	
 		  		 		  		      doul1 = (double)meanDeltaCG_Coherence[41];	         
 		  		 				      doul2 = (double)sdDeltaCG_Coherence[41];	   
-		  		 		  		      b = "±";
+		  		 		  		      b = "Â±";
 		  		 		  		      a = df.format(doul1) +b+df.format(doul2);	
 		  		 		  		      text(a, width/4f + width/7.25f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6);	
 		  		 		  		      text(PvalueCoherenceDelta[41],width/3 + width/8.5f ,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6);	
@@ -7283,12 +7283,12 @@ public class ASDAT_16 extends PApplet {
 		  		 		  		      textSize(10);
 		  		 		  		      doul1 = (double)meanThetaASD_Coherence[41];	         
 		  		 				      doul2 = (double)sdThetaASD_Coherence[41];		  
-		  		 		  		      b = "±";
+		  		 		  		      b = "Â±";
 		  		 		  		      a = df.format(doul1)+b+df.format(doul2);		      	
 		  		 		  		      text(a,width/2+width/400,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6);	
 		  		 		  		      doul1 = (double)meanThetaCG_Coherence[41];	         
 		  		 				      doul2 = (double)sdThetaCG_Coherence[41];	   
-		  		 		  		      b = "±";
+		  		 		  		      b = "Â±";
 		  		 		  		      a = df.format(doul1) +b+df.format(doul2);		      	
 		  		 		  		      text(a,width/2 + width/20f + width/128,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6);	
 		  		 		  		      text(PvalueCoherenceTheta[41],width/2  + width/8.25f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6);	
@@ -7296,12 +7296,12 @@ public class ASDAT_16 extends PApplet {
 		  		 		  		      textSize(10);
 		  		 		  		      doul1 = (double)meanAlphaASD_Coherence[41];	         
 		  		 				      doul2 = (double)sdAlphaASD_Coherence[41];		  	  
-		  		 		  		      b = "±";
+		  		 		  		      b = "Â±";
 		  		 		  		      a = df.format(doul1)+b+df.format(doul2);		      	
 		  		 		  		      text(a,width/2 + width/128+ width/6f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6);	
 		  		 		  		      doul1 = (double)meanAlphaCG_Coherence[41];	         
 		  		 				      doul2 = (double)sdAlphaCG_Coherence[41];	     
-		  		 		  		      b = "±";
+		  		 		  		      b = "Â±";
 		  		 		  		      a = df.format(doul1) +b+df.format(doul2);		      	
 		  		 		  		      text(a,width/2 + width/20f+ width/64+ width/6.25f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6);	
 		  		 		  		      text(PvalueCoherenceAlpha[41],width/2  + width/8.25f+ width/5.9f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6);	
@@ -7309,12 +7309,12 @@ public class ASDAT_16 extends PApplet {
 		  		 		  		      textSize(10);
 		  		 		  		      doul1 = (double)meanBetaASD_Coherence[41];	         
 		  		 				      doul2 = (double)sdBetaASD_Coherence[41];		 
-		  		 		  		      b = "±";
+		  		 		  		      b = "Â±";
 		  		 		  		      a = df.format(doul1)+b+df.format(doul2);		      	
 		  		 		  		      text(a,width/2 + width/128+ width/5.8f+ width/6f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6);	
 		  		 		  		      doul1 = (double)meanBetaCG_Coherence[41];	         
 		  		 				      doul2 = (double)sdBetaCG_Coherence[41];	   
-		  		 		  		      b = "±";
+		  		 		  		      b = "Â±";
 		  		 		  		      a = df.format(doul1) +b+df.format(doul2);		      	
 		  		 		  		      text(a,width/2 + width/20f+ width/64+ width/6f+ width/6f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6);	
 		  		 		  		      text(PvalueCoherenceBeta[41],width/2  + width/8.25f+ width/5.9f+ width/6f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6);	 
@@ -7326,12 +7326,12 @@ public class ASDAT_16 extends PApplet {
 		  				  		 		  		      textSize(10);
 		  				  		 		  		      doul1 = (double)meanDeltaASD_Coherence[54];	         
 		  				  		 				      doul2 = (double)sdDeltaASD_Coherence[54];		  
-		  				  		 		  		      b = "±";		
+		  				  		 		  		      b = "Â±";		
 		  				  		 		  		      a = df.format(doul1)+b+df.format(doul2);		      	      		     
 		  				  		 		  		      text(a, width/4f + width/12f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6  + height/24);
 		  				  		 		  		      doul1 = (double)meanDeltaCG_Coherence[54];	         
 		  				  		 				      doul2 = (double)sdDeltaCG_Coherence[54];	   
-		  				  		 		  		      b = "±";
+		  				  		 		  		      b = "Â±";
 		  				  		 		  		      a = df.format(doul1) +b+df.format(doul2);	
 		  				  		 		  		      text(a, width/4f + width/7.25f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6  + height/24);
 		  				  		 		  		      text(PvalueCoherenceDelta[54],width/3 + width/8.5f ,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6  + height/24);
@@ -7339,12 +7339,12 @@ public class ASDAT_16 extends PApplet {
 		  				  		 		  		      textSize(10);
 		  				  		 		  		      doul1 = (double)meanThetaASD_Coherence[54];	         
 		  				  		 				      doul2 = (double)sdThetaASD_Coherence[54];		  
-		  				  		 		  		      b = "±";
+		  				  		 		  		      b = "Â±";
 		  				  		 		  		      a = df.format(doul1)+b+df.format(doul2);		      	
 		  				  		 		  		      text(a,width/2+width/400,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6  + height/24);
 		  				  		 		  		      doul1 = (double)meanThetaCG_Coherence[54];	         
 		  				  		 				      doul2 = (double)sdThetaCG_Coherence[54];	   
-		  				  		 		  		      b = "±";
+		  				  		 		  		      b = "Â±";
 		  				  		 		  		      a = df.format(doul1) +b+df.format(doul2);		      	
 		  				  		 		  		      text(a,width/2 + width/20f + width/128,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6  + height/24);
 		  				  		 		  		      text(PvalueCoherenceTheta[54],width/2  + width/8.25f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6  + height/24);
@@ -7352,12 +7352,12 @@ public class ASDAT_16 extends PApplet {
 		  				  		 		  		      textSize(10);
 		  				  		 		  		      doul1 = (double)meanAlphaASD_Coherence[54];	         
 		  				  		 				      doul2 = (double)sdAlphaASD_Coherence[54];		  	  
-		  				  		 		  		      b = "±";
+		  				  		 		  		      b = "Â±";
 		  				  		 		  		      a = df.format(doul1)+b+df.format(doul2);		      	
 		  				  		 		  		      text(a,width/2 + width/128+ width/6f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6  + height/24);
 		  				  		 		  		      doul1 = (double)meanAlphaCG_Coherence[54];	         
 		  				  		 				      doul2 = (double)sdAlphaCG_Coherence[54];	     
-		  				  		 		  		      b = "±";
+		  				  		 		  		      b = "Â±";
 		  				  		 		  		      a = df.format(doul1) +b+df.format(doul2);		      	
 		  				  		 		  		      text(a,width/2 + width/20f+ width/64+ width/6.25f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6  + height/24);
 		  				  		 		  		      text(PvalueCoherenceAlpha[54],width/2  + width/8.25f+ width/5.9f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6  + height/24);
@@ -7365,12 +7365,12 @@ public class ASDAT_16 extends PApplet {
 		  				  		 		  		      textSize(10);
 		  				  		 		  		      doul1 = (double)meanBetaASD_Coherence[54];	         
 		  				  		 				      doul2 = (double)sdBetaASD_Coherence[54];		 
-		  				  		 		  		      b = "±";
+		  				  		 		  		      b = "Â±";
 		  				  		 		  		      a = df.format(doul1)+b+df.format(doul2);		      	
 		  				  		 		  		      text(a,width/2 + width/128+ width/5.8f+ width/6f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6  + height/24);
 		  				  		 		  		      doul1 = (double)meanBetaCG_Coherence[54];	         
 		  				  		 				      doul2 = (double)sdBetaCG_Coherence[54];	   
-		  				  		 		  		      b = "±";
+		  				  		 		  		      b = "Â±";
 		  				  		 		  		      a = df.format(doul1) +b+df.format(doul2);		      	
 		  				  		 		  		      text(a,width/2 + width/20f+ width/64+ width/6f+ width/6f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6  + height/24);	
 		  				  		 		  		      text(PvalueCoherenceBeta[54],width/2  + width/8.25f+ width/5.9f+ width/6f,height/4+ height/128+ height/3 + height/32+ height/20 +  height/60 - height/3.2f + height/3 +  height/6  + height/24);	 
@@ -8427,22 +8427,22 @@ public class ASDAT_16 extends PApplet {
 					for(int k = 0;k<4;k++){
 						for ( int i = 0; i < numberFilesADS; i++){
 							
-							//LT frontal FP1–F3–F7 -->0,10,8
+							//LT frontal FP1Â–F3Â–F7 -->0,10,8
 							regionADS[i][0][k] = abs( patient[i][0][k] + patient[i][10][k] + patient[i][8][k] )/3; //
 							
-							//RT frontal FP2–F4–F8 -->1,11,9
+							//RT frontal FP2Â–F4Â–F8 -->1,11,9
 							regionADS[i][1][k] = abs( patient[i][1][k] + patient[i][11][k] + patient[i][9][k] )/3; //		
 									
-							//LT central T3–C3 -->12,2
+							//LT central T3Â–C3 -->12,2
 							regionADS[i][2][k] = abs( patient[i][12][k] + patient[i][2][k]  )/2; //			
 									
-							//RT central T4–C4 -->13,3
+							//RT central T4Â–C4 -->13,3
 							regionADS[i][3][k] = abs( patient[i][3][k] + patient[i][13][k]  )/2; //			
 									
-							//LT posterior T5–P3–O1	-->4,14,6
+							//LT posterior T5Â–P3Â–O1	-->4,14,6
 							regionADS[i][4][k] = abs( patient[i][4][k] + patient[i][14][k] + patient[i][6][k] )/3; //												
 									
-							//RT posterior T6–P4–O2 -->5,15,7
+							//RT posterior T6Â–P4Â–O2 -->5,15,7
 							regionADS[i][5][k] = abs( patient[i][5][k] + patient[i][15][k] + patient[i][7][k] )/3; //	
 							
 							
@@ -8456,22 +8456,22 @@ public class ASDAT_16 extends PApplet {
 				for(int j=0;j<6;j++){
 					for(int k=0;k<4;k++){
 						for ( int i = 0; i < numberFilesControlGroup; i++){
-							//LT frontal FP1–F3–F7 -->0,10,8
+							//LT frontal FP1Â–F3Â–F7 -->0,10,8
 							regionControlGroup[i][0][k] = abs( controlGroup[i][0][k] + controlGroup[i][10][k] + controlGroup[i][8][k] )/3; //
 							
-							//RT frontal FP2–F4–F8 -->1,11,9
+							//RT frontal FP2Â–F4Â–F8 -->1,11,9
 							regionControlGroup[i][1][k] = abs( controlGroup[i][1][k] + controlGroup[i][11][k] + controlGroup[i][9][k] )/3; //		
 									
-							//LT central T3–C3 -->12,2
+							//LT central T3Â–C3 -->12,2
 							regionControlGroup[i][2][k] = abs( controlGroup[i][12][k] + controlGroup[i][2][k]  )/2; //			
 									
-							//RT central T4–C4 -->13,3
+							//RT central T4Â–C4 -->13,3
 							regionControlGroup[i][3][k] = abs( controlGroup[i][3][k] + patient[i][13][k]  )/2; //			
 									
-							//LT posterior T5–P3–O1	-->4,14,6
+							//LT posterior T5Â–P3Â–O1	-->4,14,6
 							regionControlGroup[i][4][k] = abs( controlGroup[i][4][k] + controlGroup[i][14][k] + controlGroup[i][6][k] )/3; //												
 									
-							//RT posterior T6–P4–O2 -->5,15,7
+							//RT posterior T6Â–P4Â–O2 -->5,15,7
 							regionControlGroup[i][5][k] = abs( controlGroup[i][5][k] + controlGroup[i][15][k] + controlGroup[i][7][k] )/3; //	
 								
 						}		
