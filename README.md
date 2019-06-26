@@ -1,7 +1,8 @@
 # Nasese
-Files available to run NASESE 
--nasese_lib.rar includes the libraries required to run the software.
+The Nasese(Neurocognitive Assessment Software for Enrichment Sensorimotor Environments) software with all necessary files Neurocognitive Assessment Software for Enrichment Sensorimotor Environments 
 
+
+-nasese_lib.rar includes the libraries required to run the software.
 
 Process to install as application:
 -Download files
@@ -11,9 +12,7 @@ Process to install as application:
 
 Publication link: https://www.omicsonline.org/open-access/neurocognitive-assessment-software-for-enrichment-sensory-environments-0974-276X-1000492-107431.html?view=mobile
 
-Process to install and execute manually NASESE
-
-The Nasese(Neurocognitive Assessment Software for Enrichment Sensorimotor Environments) software with all necessary files Neurocognitive Assessment Software for Enrichment Sensorimotor Environments
+Process to install and execute manually NASESE from eclipse:
 
 In order to install and execute NASESE, follow the instructions below:
 
