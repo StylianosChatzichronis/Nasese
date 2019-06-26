@@ -12,6 +12,8 @@ Process to install as application:
 
 Publication link: https://www.omicsonline.org/open-access/neurocognitive-assessment-software-for-enrichment-sensory-environments-0974-276X-1000492-107431.html?view=mobile
 
+
+
 Process to install and execute manually NASESE from eclipse:
 
 In order to install and execute NASESE, follow the instructions below:
