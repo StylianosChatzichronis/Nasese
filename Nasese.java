@@ -1,4 +1,4 @@
-package nasese;
+package Nasese;
 
 
 
@@ -34,7 +34,7 @@ import java.awt.Desktop;
 import java.awt.Event;
 
 
-public class ASDAT_16 extends PApplet {
+public class Nasese extends PApplet {
 
 	//The code below is organized based on 5 major groups (color, brain, sound, menu and spectrogram (its graph actually LOL)) 
 	
