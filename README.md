@@ -5,7 +5,7 @@ The Nasese(Neurocognitive Assessment Software for Enrichment Sensorimotor Enviro
 -nasese_lib.rar includes the libraries required to run the software.
 
 Process to install as application:
--Download files nasese_lib.rar, Nasese.jar
+-Download files nasese_lib.rar, Nasese.jar, additional_files.rar
 -Create a folder
 -Unrar all files in the folder
 -Run the NASESE.jar
